@@ -31,6 +31,12 @@ body {
     margin-top: 170px;
   }
 }
+.mainimage2 {
+  padding-top: 50px;
+}
+.mainimage2 .poster {
+  width: 100%;
+}
 .about {
   min-height: 800px;
   background: white;
