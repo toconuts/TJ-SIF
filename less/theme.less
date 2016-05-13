@@ -1,0 +1,182 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+@import "variables.less";
+@import "mixins.less";
+
+body {
+  position: relative;
+}
+
+.mainimage {
+  background-image:    url(../img/tjsif2016top.jpg);
+  background-repeat:   no-repeat;
+  background-position: center;
+  padding-top: 150px;
+  @media screen and (min-width: @screen-sm-min) {  
+    min-height:  700px;
+  }
+  .maintitle {
+    margin-top: 10px;
+    font-size: 70px;
+    color:      white;
+  }
+  .catchcopy {
+    @media screen and (min-width: @screen-sm-min) {  
+      margin-top: 170px;
+    }
+    font-size:  30px;
+    color:      white;
+  }
+}
+
+.about {
+  min-height: 800px;
+  background: white;
+  @media screen and (min-width: @screen-sm-min) {
+    min-height: 600px;
+  }
+  .owl-carousel {
+      margin-top: 40px;
+  }
+  .container {
+    padding: 30px;
+    p {
+      padding:   20px;
+      font-size: 18px;
+      color:     #B2B2B2;
+    }
+  }
+}
+
+.programs {
+  .clearfix();
+  .day1,.day2,.day3 {
+    width:     33%;
+    float:     left;
+    padding:   20px;
+    color:     #5E8061;
+    font-size: 15px;
+  }
+  .day1 {
+    background: #B8E986;
+  }
+  .day2 {
+    background: #F8E71C;
+  }
+  .day3 {
+    background: #FF796B;
+  }
+  .target {
+    min-height: 400px;
+    margin-top: 40px;
+    .center-block();
+    @media screen and (min-width: @screen-sm-min) {
+      width: 50%;
+    }
+    .oval {
+      position: relative;
+      .square(100px);
+      margin-top:            100px;
+      margin-bottom:         20px;
+      border:                8px solid #FFFFFF;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      @media screen and (min-width: @screen-sm-min) {
+        .square(150px);
+        .center-block();
+      }
+      span {
+        width:      6em;
+        margin-top: 50px;
+        .center-block();
+        font-weight: bold;
+        line-height: 1.4;
+        text-align:  center;
+      }
+    }
+  }
+}
+
+.pcshs {
+  .clearfix();
+  margin-bottom: 30px;
+  @media screen and (min-width: @screen-sm-min) {
+    min-height:  500px;
+  }
+  .container {
+    padding: 30px;
+    p {
+      padding:   20px;
+      font-size: 18px;
+      color:     #B2B2B2;
+    }
+  }
+}
+
+.ssh {
+  .clearfix();
+  margin-bottom: 30px;
+  @media screen and (min-width: @screen-sm-min) {
+    min-height:  500px;
+  }
+  .container {
+    padding: 30px;
+    p {
+      padding:   20px;
+      font-size: 18px;
+      color:     #B2B2B2;
+    }
+  }
+}
+
+.downloads {
+  .clearfix();
+  min-height: 400px;
+  background: white;
+  @media screen and (min-width: @screen-sm-min) {
+    min-height: 400px;
+  }
+  .container {
+    padding: 30px;
+    p {
+      padding:   10px;
+      font-size: 18px;
+      color:     #B2B2B2;
+    }
+  }
+}
+
+.contact {
+  color:         #FFF;
+  margin-top:    60px;
+  padding:       30px;
+  background:    @gray-darker;
+  border-bottom: 1px solid #000;
+  label {
+    padding: 0;
+  }
+  label:before {
+    content:       "*";
+    color:         red;
+    padding-right: 3px;
+  }
+  textarea {
+    width:  100%;
+    margin: 10px auto;
+  }
+}
+
+footer {
+  padding:    40px;
+  color:      #FFF;
+  background: @gray-darker;
+  border-top: 1px solid @gray-dark;
+}
