@@ -54,9 +54,10 @@
       </div><!-- /.container -->
     </nav>
 
-    <div class="mainimage2">
+    <div class="mainimage">
       <div class="container">
-        <img src="img/topposter.jpg" alt="TJSIF2016 POSTER" class="poster">
+        <h1 class="maintitle text-center">THAILAND-JAPAN<br/>STUDENT ICT FAIR<br />2016</h1>
+        <p class="catchcopy lead text-center">Seeding Innovations through<br />Fostering Thailand-Japan Youth Friendship</p>
       </div><!-- /.container -->
     </div>
     
